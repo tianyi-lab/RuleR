@@ -40,6 +40,7 @@ Comparing existing methods (top) and our RuleR (bottom) for enhancing LLM contro
    ```bash
    pip install -r requirements.txt
    ```
+Note: The use of RuleR only uses ```spacy``` and ```tqdm``` packages. We recommend you manually install these 2 packages and do not need to install them from requirements.txt
 2. Install the Spacy model
    ```bash
    python -m spacy download en_core_web_sm

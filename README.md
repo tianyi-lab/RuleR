@@ -14,7 +14,7 @@ This is the repo for the RuleR project, which proposes **a data augmentation met
 - [Run Code](#run-code)
 - [ToDo](#todo)
 - [Citation](#citation)
-- [Our Related Works](#our_related_works)
+- [Our Related Works](#our-related-works)
 
 ## Overview
 

@@ -4,6 +4,8 @@ RuleR: Improving LLM Controllability by Rule-based Data Recycling (Paper coming 
 
 This is the repo for the RuleR project, which proposes **a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, without any human/LLM editing on responses.** 
 
+(Feel free to email minglii@umd.edu for any questions or feedback.)
+
 ## News
 - [2024/06] We initialized the RuleR repo.
 

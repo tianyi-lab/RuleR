@@ -1,8 +1,8 @@
 # RuleR: Improving LLM Controllability by Rule-based Data Recycling
 
-RuleR: Improving LLM Controllability by Rule-based Data Recycling
+RuleR: Improving LLM Controllability by Rule-based Data Recycling (Paper coming soon.)
 
-This is the repo for the RuleR project, which proposes a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, which creates new training tasks to consolidate the controllability of LLMs. 
+This is the repo for the RuleR project, which proposes **a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, without any human/LLM editing on responses.** 
 
 ## News
 - [2024/06] We initialized the RuleR repo.
@@ -18,7 +18,21 @@ This is the repo for the RuleR project, which proposes a data augmentation metho
 
 ## Overview
 
+Large language models (LLMs) still lack delicate controllability over their responses, which is critical to enhancing their performance and the user experience. 
+However, curating supervised fine-tuning (SFT) datasets to improve LLM controllability usually relies on human experts or proprietary LLMs, which requires additional costs. 
+To bridge this gap, we propose Rule-based Data Recycling (RuleR), a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, which creates new training tasks to consolidate the controllability of LLMs. 
+Instead of creating new data from scratch, RuleR ``recycles'' existing data by simply applying rule-based edits to their responses and appending the rule-instructions in their original instructions. 
+Experimental results demonstrate RuleR's effectiveness in improving LLM controllability while maintaining general instruction-following capabilities.
+
+<p align="center" width="50%">
+<a ><img src="images/method.png" alt="overview" style="width: 50%; min-width: 300px; display: block; margin: auto;"></a>
+</p>
+
+Comparing existing methods (top) and our RuleR (bottom) for enhancing LLM controllability. Most existing methods rely on extra-human/model supervision to generate or edit instructions and responses, neglecting the remaining potential of the original data. On the contrary, RuleR demonstrates that simple rule-based (human/model-free) editing of existing data can greatly improve LLM controllability.
+
 ## Highlights
+
+* RuleR is the first **human/model-free data augmentation approach designed to improve LLM controllability** in enforcing multiple constraints to LLM-generated response.
 
 ## Install
 
@@ -69,12 +83,18 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 
 ## ToDo
 - [x] Initialize the repo.
-- [x] Release paper on Arxiv.
+- [ ] Release paper on Arxiv.
 
 ## Citation
 
 Please consider citing our papers if you think our codes, data, or models are useful. Thank you! <br>
 
 ## Our Related Works
+
+If you are interested in **human/LLM-free Data Augmentation** for Instruction Tuning, please see [Mosaic-IT](https://github.com/tianyi-lab/Mosaic-IT).
+If you are interested in **Data Selection** for Instruction Tuning, please see [Cherry_LLM](https://github.com/MingLiiii/Cherry_LLM) and [Superfiltering](https://github.com/tianyi-lab/Superfiltering). <br>
+If you are interested in **Data Improvement** for Instruction Tuning, please see [Reflection_Tuning](https://github.com/tianyi-lab/Reflection_Tuning). <br>
+If you are interested in **Knowledge Distillation** in the LLM era, please see this [Survey](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs). <br>
+
 
 

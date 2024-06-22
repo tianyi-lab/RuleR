@@ -1,6 +1,24 @@
-# RuleR
+# RuleR: Improving LLM Controllability by Rule-based Data Recycling
 
-This is the repo for the RuleR project. 
+RuleR: Improving LLM Controllability by Rule-based Data Recycling
+
+This is the repo for the RuleR project, which proposes a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, which creates new training tasks to consolidate the controllability of LLMs. 
+
+## News
+- [2024/06] We initialized the RuleR repo.
+
+## Contents
+- [Overview](#overview)
+- [Highlights](#highlights)
+- [Install](#install)
+- [Run Code](#run-code)
+- [ToDo](#todo)
+- [Citation](#citation)
+- [Our Related Works](#our_related_works)
+
+## Overview
+
+## Highlights
 
 ## Install
 
@@ -13,7 +31,7 @@ This is the repo for the RuleR project.
    python -m spacy download en_core_web_sm
    ```
 
-## Run Code (Obtain Augmented Data)
+## Run Code
 
 ### Single-Round Data (Alpaca format)
 ```bash
@@ -48,3 +66,15 @@ We use the prompt and code base from [FastChat](https://github.com/lm-sys/FastCh
 ```
 A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Hi ASSISTANT: Hello.</s>USER: Who are you? ASSISTANT: I am ...</s>......
 ```
+
+## ToDo
+- [x] Initialize the repo.
+- [x] Release paper on Arxiv.
+
+## Citation
+
+Please consider citing our papers if you think our codes, data, or models are useful. Thank you! <br>
+
+## Our Related Works
+
+

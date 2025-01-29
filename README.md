@@ -7,6 +7,7 @@ This is the repo for the RuleR project, which proposes **a data augmentation met
 (Feel free to email minglii@umd.edu for any questions or feedback.)
 
 ## News
+- [2025/01] Our paper has been accepted to the **NAACL 2025** main conference! 
 - [2024/06] We initialized the RuleR repo.
 
 ## Contents

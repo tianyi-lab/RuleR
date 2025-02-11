@@ -1,6 +1,6 @@
 # RuleR: Improving LLM Controllability by Rule-based Data Recycling
 
-[RuleR: Improving LLM Controllability by Rule-based Data Recycling](https://arxiv.org/abs/2406.15938)
+[RuleR: Improving LLM Controllability by Rule-based Data Recycling](https://arxiv.org/abs/2406.15938) (NAACL'25)
 
 This is the repo for the RuleR project, which proposes **a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, without any human/LLM editing on responses.** 
 

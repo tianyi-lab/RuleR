@@ -97,14 +97,26 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 Please consider citing our papers if you think our codes, data, or models are useful. Thank you! <br>
 
 ```
-@misc{li2024rulerimprovingllmcontrollability,
-      title={RuleR: Improving LLM Controllability by Rule-based Data Recycling}, 
-      author={Ming Li and Han Chen and Chenguang Wang and Dang Nguyen and Dianqi Li and Tianyi Zhou},
-      year={2024},
-      eprint={2406.15938},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2406.15938}, 
+@inproceedings{li-etal-2025-ruler,
+    title = "{R}ule{R}: Improving {LLM} Controllability by Rule-based Data Recycling",
+    author = "Li, Ming  and
+      Chen, Han  and
+      Wang, Chenguang  and
+      Nguyen, Dang  and
+      Li, Dianqi  and
+      Zhou, Tianyi",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-short.78/",
+    pages = "926--943",
+    ISBN = "979-8-89176-190-2",
+    abstract = "Large language models (LLMs) still lack delicate controllability over their responses, which is critical to enhancing their performance and the user experience. However, curating supervised fine-tuning (SFT) datasets to improve LLM controllability usually relies on human experts or proprietary LLMs, which requires additional costs. To bridge this gap, we propose Rule-based Data Recycling (RuleR), a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, which creates new training tasks to consolidate the controllability of LLMs. Instead of creating new data from scratch, RuleR {\textquotedblleft}recycles{\textquotedblright} existing data by simply applying rule-based edits to their responses and appending the rule-instructions in their original instructions. Experimental results demonstrate RuleR`s effectiveness in improving LLM controllability while maintaining general instruction-following capabilities."
 }
 
 @misc{li2024mosaicitenhancinginstruction,

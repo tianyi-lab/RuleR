@@ -1,4 +1,4 @@
-# RuleR: Improving LLM Controllability by Rule-based Data Recycling
+# RuleR: Improving LLM Controllability by Rule-based Data Recycling (NAACL'25)
 
 [RuleR: Improving LLM Controllability by Rule-based Data Recycling](https://arxiv.org/abs/2406.15938) (NAACL'25)
 
@@ -119,15 +119,13 @@ Please consider citing our papers if you think our codes, data, or models are us
     abstract = "Large language models (LLMs) still lack delicate controllability over their responses, which is critical to enhancing their performance and the user experience. However, curating supervised fine-tuning (SFT) datasets to improve LLM controllability usually relies on human experts or proprietary LLMs, which requires additional costs. To bridge this gap, we propose Rule-based Data Recycling (RuleR), a data augmentation method incorporating multiple constraints into the original data samples according to predefined rules, which creates new training tasks to consolidate the controllability of LLMs. Instead of creating new data from scratch, RuleR {\textquotedblleft}recycles{\textquotedblright} existing data by simply applying rule-based edits to their responses and appending the rule-instructions in their original instructions. Experimental results demonstrate RuleR`s effectiveness in improving LLM controllability while maintaining general instruction-following capabilities."
 }
 
-@misc{li2024mosaicitenhancinginstruction,
-      title={Mosaic IT: Enhancing Instruction Tuning with Data Mosaics}, 
-      author={Ming Li and Pei Chen and Chenguang Wang and Hongyu Zhao and Yijun Liang and Yupeng Hou and Fuxiao Liu and Tianyi Zhou},
-      year={2024},
-      eprint={2405.13326},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2405.13326}, 
+@article{li2024mosaic,
+  title={Mosaic-IT: Free Compositional Data Augmentation Improves Instruction Tuning},
+  author={Li, Ming and Chen, Pei and Wang, Chenguang and Zhao, Hongyu and Liang, Yijun and Hou, Yupeng and Liu, Fuxiao and Zhou, Tianyi},
+  journal={arXiv preprint arXiv:2405.13326},
+  year={2024}
 }
+
 ```
 
 ## Our Related Works

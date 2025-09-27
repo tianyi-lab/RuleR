@@ -37,7 +37,7 @@ Comparing existing methods (top) and our RuleR (bottom) for enhancing LLM contro
 
 ## Highlights
 
-* RuleR is the first **human/model-free data augmentation approach designed to improve LLM controllability** in enforcing multiple constraints to LLM-generated response.
+* RuleR is the first **human/model-free data augmentation approach designed to improve LLM controllability** in enforcing multiple constraints on LLM-generated responses.
 
 ## Install
 
@@ -45,7 +45,7 @@ Comparing existing methods (top) and our RuleR (bottom) for enhancing LLM contro
 ```bash
 pip install -r requirements.txt
 ```
-Note: The use of RuleR only uses ```spacy``` and ```tqdm``` packages. We recommend you manually install these 2 packages and do not need to install them from requirements.txt
+Note: The use of RuleR only uses ```spacy``` and ```tqdm``` packages. We recommend you manually install these 2 packages, and do not need to install them from requirements.txt
 
 2. Install the Spacy model
 ```bash
